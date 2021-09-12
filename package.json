@@ -1,0 +1,13 @@
+{
+  "name": "ethexporter",
+  "version": "1.0.0",
+  "description": "basic utility for dashboard displaying wallet balance of ether",
+  "main": "index.js",
+  "repository": "https://github.com/BunsDev/ethexporter.git",
+  "author": "Buns <bunsthedev@gmail.com>",
+  "license": "MIT",
+  "private": true, 
+  "scripts": {
+      "build":"docker build -t bunsdev/ethexporter:latest ."
+    }
+}
